@@ -78,15 +78,15 @@ const showMenu = (toggleId, navId) => {
   /*SCROLL SKILLS*/
   sr.reveal(".skills-subtitle", {});
   sr.reveal(".skills-text", {});
-  sr.reveal(".skills-data", { interval: 100 });
+  sr.reveal(".skills-data", { interval: 50 });
   // sr.reveal(".skills-img", { delay: 600 });
   
   /*SCROLL projects*/
-  sr.reveal(".project-img", { interval: 200 });
+  sr.reveal(".project-img", { interval: 50 });
   
   /*SCROLL CONTACT*/
-     sr.reveal(".contact-input", { interval: 200 });
-     sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+     sr.reveal(".contact-input", { interval: 50 });
+     sr.reveal('.skills__data, .work__img, .contact__input',{interval: 50}); 
   
     function myFunction(){
       var element = document.body;
